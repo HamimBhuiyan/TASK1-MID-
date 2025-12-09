@@ -1,0 +1,28 @@
+#img{
+    width:150px;
+    height:250px;
+    border:5px solid black ;
+    border-radius: 5px;
+}
+div{
+    text-align: center;
+}
+
+h1{
+    text-align:center;
+    margin:20;
+}
+
+.a{
+    text-align:center;
+    margin:20px
+}
+
+body{
+    background-color:aqua;
+}
+
+
+h2{
+    margin-top:20px;
+}

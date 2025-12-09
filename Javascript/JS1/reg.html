@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <form id="form" action="" method="POST" enctype="multipart/form-data" onsubmit="return validateForm()">
+            <fieldset>
+                <legend>Student Portal Signup System</legend>
+
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name"><br><br>
+                <p id="Pname"></p>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email"><br><br>
+                <p id="Pemail"></p>
+
+                <label for="password">Password</label>
+                <input type="password" id="pass" name="pass"><br><br>
+                <p id="Ppass"></p>
+
+                <label for="conpass">Confirm Password</label>
+                <input type="password" id="conpass" name="conpass"><br><br>
+                <p id="Pconpass"></p>
+
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phn" name="phn"><br><br>
+                <p id="Pphn"></p>
+
+                <button type="submit" id="submit" name="submit">Register</button>
+
+               
+            </fieldset>
+        </form>
+        <p id="result"></p>
+
+    </body>
+</html>

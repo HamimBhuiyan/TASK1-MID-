@@ -1,0 +1,32 @@
+#d1{
+    position: absolute;
+    z-index: 1;
+    top:0;
+    left:0;
+    background-color: red;
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+}
+
+#d2{
+    position: absolute;
+    z-index: 2;
+    top:10px;
+    left:10px;
+    background-color: blue;
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+}
+
+#d3{
+    position: absolute;
+    z-index: 3;
+    top:20px;
+    left:20px;
+    background-color:green;
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+}

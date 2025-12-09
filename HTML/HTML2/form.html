@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>University Admission Form</title>
+</head>
+
+<body>
+
+    <h2>University Admission Form</h2>
+
+    <form action="" method="POST" enctype="multipart/form-data">
+
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <label for="fname">Full Name:</label>
+            <input type="text" id="fname" name="fullname" maxlength="50" required>
+            <br><br>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="Male" required>
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label>
+            <br><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            <br><br>
+
+            <label>Interests:</label>
+            <input type="checkbox" id="interest1" name="interests[]" value="Sports">
+            <label for="interest1">Sports</label>
+
+            <input type="checkbox" id="interest2" name="interests[]" value="Reading">
+            <label for="interest2">Reading</label>
+
+            <input type="checkbox" id="interest3" name="interests[]" value="Music">
+            <label for="interest3">Music</label>
+            <br><br>
+
+        </fieldset>
+        </form>
+
+        <br><br><br>
+
+
+
+       <form>
+        <fieldset>
+            <legend>Academic Information</legend>
+
+            <label for="hsc">HSC GPA:</label>
+            <input type="number" id="hsc" name="hsc_gpa" required>
+            <br><br>
+
+            <label for="ssc">SSC GPA:</label>
+            <input type="number" id="ssc" name="ssc_gpa" required>
+            <br><br>
+
+            <label for="department">Preferred Department:</label>
+            <select id="department" name="department" required>
+                <option value="">Select One</option>
+                <option value="CSE">Computer Science & Engineering</option>
+                <option value="EEE">Electrical & Electronic Engineering</option>
+                <option value="BBA">Bachelor of Business Administration</option>
+                <option value="ENG">English</option>
+            </select>
+            <br><br>
+
+        </fieldset>
+        </form>
+
+        <br><br><br>
+
+       <form>
+        <fieldset>
+            <legend>Required Documents</legend>
+
+            <label for="photo">Upload Photo</label>
+            <input type="file" id="photo" name="photo" accept=".jpg,.png" required>
+            <br><br>
+
+            <label for="transcript">Upload Transcript:</label>
+            <input type="file" id="transcript" name="transcript" required>
+            <br><br>
+
+        </fieldset>
+
+        <br>
+
+      
+        <input type="submit" value="Submit Form">
+        <input type="reset" value="Reset Form">
+
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+div{
+    border: 5px solid black;
+    position:fixed;
+    Display:inline-block;
+    z-index:100;
+    padding:2px;
+    right:0px;
+    bottom:0px; 
+    background-color:red;
+}
+
+div:hover{
+    background-color:aqua;
+    outline: 2px solid green;
+    outline-offset: 2px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student Management System</title>
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <form id="form">
+            <fieldset>
+                <legend>Input Data to insert into the table</legend>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name"><br><br>
+                <p id="pname"></p>
+
+                <label for="roll">Roll</label>
+                <input type="number" id="roll" name="roll"><br><br>
+                <p id="proll"></p>
+
+                <label for="department">Department</label>
+                <input type="text" id="dep" name="dep"><br><br>
+                <p id="pdep"></p>
+
+                <button type="button" id="submit">Add Student</button>
+            </fieldset>
+        </form>
+        <table border="1" id="table">
+            <tr>
+                <th>Name</th>
+                <th>Roll</th>
+                <th>Department</th>
+                <th id="action">Action</th>
+            </tr>
+        </table>
+    </body>
+</html>
